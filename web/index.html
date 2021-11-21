@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Paco Corp®</title>
+        <link rel="icon" href="images/favicon.ico">
+		    <link rel="stylesheet" href="css/style.css">
+		    <script src="js/utils/include.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <script src="js/libs/jquery-3.6.0.min.js"></script>
+        <script src="js/libs/popper.min.js"></script>
+        <script src="js/libs/bootstrap.min.js"></script>
+        <script src="js/libs/axios.min.js"></script>
+    </head>
+
+    <body style="background-color:#181818;">
+		<div id="page-header"> </div>
+		<div class="container">
+      </br></br></br>
+			<div class="row text-center">
+				<div class="col-md">
+					<h2 id="title2">The raw power of Dedicated Servers</h2>
+          <h4 id="title3">Get the compute and I/O power of single-tenant dedicated servers</h4>
+          <img src="web/images/sr650.png" id="img"></img>
+				</div>
+			</div>
+      </br>
+      <div class="row text-center">
+        <div class="col">
+          <p style="color:#8a948c">☑ 4x3.3Ghz</p>
+        </div>
+        <div class="col">
+          <p style="color:#8a948c">☑ 4x3.3Ghz</p>
+        </div>
+        <div class="col">
+          <p style="color:#8a948c">☑ 4x3.3Ghz</p>
+        </div>
+        <div class="col">
+          <p style="color:#8a948c">☑ 4x3.3Ghz</p>
+        </div>
+      </div>
+      </br>
+      <div class="row justify-content-center">
+        <div class="col-lg-2">
+          <button type="submit" class="btn btn-secondary" id="btn1" style="float:right">60.95$</button>
+        </div>
+        <div class="col-lg-2">
+          <button type="submit" class="btn btn-info" id="btn1">ORDER</button>
+        </div>
+      </div>
+      </br></br></br>
+      <div class="row justify-content-center">
+        <div class="col-lg-2">
+          <button type="submit" id="btn2" style="float: right;">prev</button>
+        </div>
+        <div class="col-lg-2">
+          <button type="submit" id="btn2">next</button>
+        </div>
+      </div>
+    </br></br></br></br></br></br>
+      <div class="row justify-content-center">
+        <div class="col-md">
+          <h2 id="title2">01_Legends Plans</h2>
+          <h4 id="title3">Each trial comes with <b>a risk-free 7 days trial.</b>Choose your belows</h4>
+        </div>
+      </div>
+      </br></br></br>
+      <div class="row justify-content-center">
+        <div class="col-md-3" style="background-color:#2e2e2e">
+          <div class="row justify-content-center">
+            <img src="web/images/network.ico" id="img3"></img>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md text-center">
+              <h4 style="color:#525252;font-weight:bold;">Shared Hosting</h4>
+              <div class="row d-flex justify-content-center">
+                <div><h2 class="text-info"><b>$9.95*</b></h2></div>
+                <div style="color:#8a8a8a">Per<p>Month</p></div>
+              </div>
+              <div class="row justify-content-center text-center">
+                <b style="color:#525252">100GB Storage</b>
+              </div>
+              <div class="row justify-content-center text-center">
+                <b style="color:#525252">500GB Bandwidth</b>
+              </div>
+              <div class="row justify-content-center text-center">
+                <b style="color:#525252">Free Domain Name</b>
+              </div>
+              </br>
+              <div class="row justify-content-center">
+                <button type="submit" class="btn btn-info" id="btn3">ORDER</button>
+              </div>
+              </br>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3" style="background-color:#2e2e2e">
+          <div class="row justify-content-center">
+            <img src="web/images/transfer.ico" id="img3"></img>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md text-center">
+              <h4 style="color:#525252;font-weight:bold;">Vps Hosting</h4>
+              <div class="row d-flex justify-content-center">
+                <div><h2 class="text-info"><b>$9.95*</b></h2></div>
+                <div style="color:#8a8a8a">Per<p>Month</p></div>
+              </div>
+              <div class="row justify-content-center text-center">
+                <b style="color:#525252">300GB Storage</b>
+              </div>
+              <div class="row justify-content-center text-center">
+                <b style="color:#525252">800GB Bandwidth</b>
+              </div>
+              <div class="row justify-content-center text-center">
+                <b style="color:#525252">Free Domain Name</b>
+              </div>
+              </br>
+              <div class="row justify-content-center">
+                <button type="submit" class="btn btn-info" id="btn3">ORDER</button>
+              </div>
+              </br>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3" style="background-color:#2e2e2e">
+          <div class="row justify-content-center">
+            <img src="web/images/server.ico" id="img3"></img>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md text-center">
+              <h4 style="color:#525252;font-weight:bold;">Dedicated Hosting</h4>
+              <div class="row d-flex justify-content-center">
+                <div><h2 class="text-info"><b>$19.95*</b></h2></div>
+                <div style="color:#8a8a8a">Per<p>Month</p></div>
+              </div>
+              <div class="row justify-content-center text-center">
+                <b style="color:#525252">1000GB Storage</b>
+              </div>
+              <div class="row justify-content-center text-center">
+                <b style="color:#525252">5000GB Bandwidth</b>
+              </div>
+              <div class="row justify-content-center text-center">
+                <b style="color:#525252">Free Domain Name</b>
+              </div>
+              </br>
+              <div class="row justify-content-center">
+                <button type="submit" class="btn btn-info" id="btn3">ORDER</button>
+              </div>
+              </br>
+            </div>
+          </div>
+        </div>
+      </div>
+      </br></br></br>
+      <div class="row justify-content-center">
+        <div class="col-md">
+          <h2 id="title2">02_Features</h2>
+          <h4 id="title3">Lore ipsum dolor sit amet, non odio tincidunt ut ante, lorem a euismod suspenssive vel.</h4>
+        </div>
+      </div>
+      </br></br></br>
+      <div class="row text-center">
+        <div class="col justify-content-center">
+          <img src="web/images/lfg_fl.ico" id="img2"></img>
+          </br></br>
+          <div style="border-style: double;">
+            </br>
+            <p style="color:#8a948c; font-size:130%;"><b>24/7 Support</b></p>
+            <p style="color:#8a948c">Trained, in-house experts are here to help 24/7. Our robust help center includes guides, video tutorials and more.</p>
+          </div>
+        </div>
+        <div class="col justify-content-center">
+          <img src="web/images/money.ico" id="img2"></img>
+          </br></br>
+          <div style="border-style: double;">
+            </br>
+            <p style="color:#8a948c; font-size:130%;"><b>Money-Back</b></p>
+            <p style="color:#8a948c">Try us and love us, or get a refund any time. You're never locked into a contract and there are no hidden fees or gimmicks.</p>
+          </div>
+        </div>
+        <div class="col justify-content-center">
+          <img src="web/images/gift.ico" id="img2"></img>
+          </br></br>
+          <div style="border-style: double;">
+            </br>
+            <p style="color:#8a948c; font-size:130%;"><b>Over $150 in Offers</b></p>
+            <p style="color:#8a948c">Leverage advertising offers from Google, Bing, and other leading sites to help grow your business - all included</p>
+          </div>
+        </div>
+        <div class="col justify-content-center">
+          <img src="web/images/phone.ico" id="img2"></img>
+          </br></br>
+          <div style="border-style: double;">
+            </br>
+            <p style="color:#8a948c; font-size:130%;"><b>Mobile Friendly</b></p>
+            <p style="color:#8a948c">Customers can access, manage and place orders from mobile, table or desktop, thanks to a fully responsive fronted UI.</p>
+          </div>
+        </div>
+      </div>
+      </br></br></br>
+      <div class="row justify-content-center">
+        <div class="col-md">
+          <h2 id="title2">03_Portfolio</h2>
+          <h4 id="title3">Lore ipsum dolor sit amet, non odio tincidunt ut ante, lorem a euismod suspenssive vel.</h4>
+        </div>
+      </div>
+      </br></br>
+      <div class="row justify-content-center">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="container">
+            <div class="row justify-content-center">
+              <button type="submit" class="btn btn-light" id="btn4">Recent</button>
+            </div>
+            </br>
+            <div class="row justify-content-center">
+              <button type="submit" class="btn btn-light" id="btn4">Blog</button>
+            </div>
+            </br>
+            <div class="row justify-content-center">
+              <button type="submit" class="btn btn-light" id="btn4">Brands</button>
+            </div>
+            </br>
+            <div class="row justify-content-center">
+              <button type="submit" class="btn btn-light" id="btn4">App</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          </br>
+          <img src="web/images/CloudOcean2.jpeg" class="img-fluid"></img>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          </br>
+          <img src="web/images/cloudmedia2.jpg" class="img-fluid"></img>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          </br>
+          <img src="web/images/HostingHouse2.jpeg" class="img-fluid"></img>
+        </div>
+      </div>
+      </br></br>
+      <div class="row justify-content-center">
+        <button type="submit" class="btn btn-light" id="btn5">Go to Portfolio</button>
+      </div>
+      </br></br></br>
+      <div class="row">
+        <div class="col-sm-4">
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0" style="font-size:50%">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    ❉ Can I add software to my account?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  Yes, you have complete control over all aspects of your account, including the installation of software. If you install software not included in your hosting plan, we cannot guarantee its functuonality and it will not be supported by our technical support staff. However, because we offer
+                  support for Perl, PHP, MySQL, and other programming languages, you have very few limitations when it comes to which software you can install. Finally, WestHost is constantly adding new and exciting software applications that can be installed automatically.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0" style="font-size:50%">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    ❉ How much does additional Bandwidth cost?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0" style="font-size:50%">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    ❉ Can I upgrade my account if I need to?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-8 justify-content-center" style="background-color:#2e2e2e">
+          </br></br></br>
+          <img src="web/images/baldavatar.png" id="img4"></img>
+          </br>
+          <h2 id="title2">Paco Mermela</h2>
+          <h4 id="title3">CEO@paquitos2.org</h4>
+          </br></br></br>
+          <p style="text-align:center; color: white;">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+          </br></br>
+          <div class="row justify-content-center">
+            <div class="col-lg-2">
+              <button type="submit" id="btn2" style="float: right;">prev</button>
+            </div>
+            <div class="col-lg-2">
+              <button type="submit" id="btn2">next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+			</hr>
+			<div id="errors"></div>
+		</div>
+		</br>
+    <script>
+      include("header.html", "#page-header");
+    </script>
+    <div id="page-footer"> </div>
+    <script>
+      include("footer.html", "#page-footer");
+    </script>
+    <div id="dom-test"> </div>
+	</body>
+</html>

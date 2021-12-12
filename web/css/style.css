@@ -16,9 +16,21 @@ a {
 	text-decoration: monospace;
 	color: cyan;
 }
+#map{
+  height: 800px;
+  width: 800px;
+  margin:5rem auto;
+}
 #img {
   max-width: 100%;
   height: auto;
+}
+#zoom {
+  max-width: 100%;
+  height: auto;
+}
+#zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 #img2 {
   max-width: auto;
@@ -34,6 +46,11 @@ a {
   width: 15%;
 }
 #btn1 {
+  width: 100%;
+  font-size: 120%;
+  height: 150%;
+}
+#btndetailed {
   width: 100%;
   font-size: 120%;
   height: 150%;

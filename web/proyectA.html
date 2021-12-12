@@ -13,14 +13,18 @@
         <script src="js/libs/jquery-3.6.0.min.js"></script>
         <script src="js/libs/popper.min.js"></script>
         <script src="js/libs/bootstrap.min.js"></script>
-        <script src="js/index.js" type="module"></script>
         <script src="js/libs/axios.min.js"></script>
+        <script src="js/require.js" data-main="scripts/app"></script>
+        <script src="js/twitter.js" type="module"></script>
     </head>
 
     <body style="background-color:#181818;">
 		    <div id="page-header"> </div>
 		    <div class="container">
-          <a class="twitter-timeline" href="https://twitter.com/GonzaloBartual?ref_src=twsrc%5Etfw">Tweets by GonzaloBartual</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <!--<a class="twitter-timeline" href="https://twitter.com/GonzaloBartual?ref_src=twsrc%5Etfw">Tweets by GonzaloBartual</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+          <textarea id="twitt" rows="3" cols="25"></textarea>
+          <br/>
+          <input type="button" onclick="twitt()" value="Get Twitts" />
         <div id="errors"></div>
         </div>
         <script>
